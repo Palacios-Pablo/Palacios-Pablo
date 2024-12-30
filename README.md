@@ -424,7 +424,7 @@
 
 ## 🌐 Conéctate conmigo
 <div align="center">
-  <a href="https://linkedin.com/in/palacios-pablo](https://www.linkedin.com/in/pablo-palacios-464a222a9/" target="_blank">
+  <a href=https://www.linkedin.com/in/pablo-palacios-464a222a9/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:pjpr.16@hotmail.com" target="_blank">
