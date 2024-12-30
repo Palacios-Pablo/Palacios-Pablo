@@ -34,14 +34,94 @@
 
 ---
 
-## 📊 Estadísticas
+<h3 align="center">📊 Estadísticas de GitHub</h3>
 
 <div align="center">
+  <!-- GitHub Streak -->
   <img src="https://streak-stats.demolab.com?user=Palacios-Pablo&theme=dark&hide_border=true" alt="GitHub Streak" />
-  <br>
+  
+
+  <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=Palacios-Pablo&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+
+
+  <!-- Top Languages -->
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Top Languages" style="height: 180px; width: auto; margin-right: 10px;" />
+  
+  <!-- Repos Per Language -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Repos Per Language" style="height: 180px; width: auto; margin-right: 10px;" />
+  
+  <!-- Most Commit Language -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Most Commit Language" style="height: 180px; width: auto;" />
+
+
+</div>
+ 
+    
+
+
+
+<!-- GitHub Activity Graph -->
+<h4 align="center">📅 Actividad de GitHub</h4>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Palacios-Pablo&custom_title=Pablo's%20GitHub%20Activity%20Graph&hide_border=true&border_radius=15&bg_color=000000&color=FFD700&line=1E90FF&point=1E90FF&area_color=000000&title_color=FFD700&area=true" alt="GitHub Activity Graph" />
+</div>
+
+<br>
+
+
+<!-- GitHub Top Repositories -->
+<h3 align="center">📚 Repositorios Destacados</h3>
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/fast-gemini-nano">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=fast-gemini-nano&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/Weather-3d-ai-app">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Weather-3d-ai-app&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/moviedjangoai">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=moviedjangoai&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/speech-to-text">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=speech-to-text&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/SmolLM">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=SmolLM&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/Llama-3.2_running_locally">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Llama-3.2_running_locally&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+<!-- GitHub Profile Summary -->
+<h4 align="center">👤 Resumen del Perfil</h4>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Palacios-Pablo&theme=dark&hide_border=true" alt="Profile Details">
 </div>
 
 ---
