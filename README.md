@@ -67,7 +67,7 @@
 <!-- GitHub Activity Graph -->
 <h4 align="center">📅 Actividad de GitHub</h4>
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Palacios-Pablo&custom_title=Pablo's%20GitHub%20Activity%20Graph&hide_border=true&border_radius=15&bg_color=000000&color=FFD700&line=1E90FF&point=1E90FF&area_color=000000&title_color=FFD700&area=true" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Palacios-Pablo&custom_title=Pablo's%20GitHub%20Activity%20Graph&hide_border=true&border_radius=15&bg_color=151515&color=FFFFFF&line=79FF97&point=79FF97&area_color=000000&title_color=FFFFFF&area=true" alt="GitHub Activity Graph" />
 </div>
 
 <br>
