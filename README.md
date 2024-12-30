@@ -338,13 +338,13 @@
   <!-- Top Languages -->
 
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Top Languages" style="height: 140px; width: auto; margin-right: 10px;" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Top Languages" style="height: 150px; width: auto; margin-right: 10px;" />
   
   <!-- Repos Per Language -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Repos Per Language" style="height: 140px; width: auto; margin-right: 10px;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Repos Per Language" style="height: 150px; width: auto; margin-right: 10px;" />
   
   <!-- Most Commit Language -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Most Commit Language" style="height: 140px; width: auto;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true" alt="Most Commit Language" style="height: 150px; width: auto;" />
 
 
 </div>
