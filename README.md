@@ -1,8 +1,11 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=header" width="100%">
 
 <div align="center">
-  <h1>👋 ¡Hola! Soy Pablo Palacios</h1>
-  <p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&weight=700&pause=1500&color=FFFFFF&center=true&vCenter=true&width=1200&height=60&lines=Hola!+Soy+Pablo+Palacios+👋;Hi!+I+am+Pablo+Palacios+👋;Desarrollador+Web+-+Web+Developer;Desarrollador+en+Programación+-+Programming+Developer;Soporte+Técnico+IT+-+IT+Technical+Support;Programador+de+BD+-+DB+Programmer;Analista+de+BD+-+DB+Analyst" 
+       alt="Typing SVG" />
+</a>
+<p>
     Desarrollador web full-stack apasionado por la tecnología, la resolución de problemas y la mejora de procesos en sistemas de gestión. <br>
     🚀 Enfocado en crear soluciones innovadoras y eficientes para proyectos comunitarios y empresas.
   </p>
