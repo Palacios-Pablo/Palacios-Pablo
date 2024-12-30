@@ -327,11 +327,11 @@
 
 <div align="center">
   <!-- GitHub Streak -->
-  <img src="https://streak-stats.demolab.com?user=Palacios-Pablo&theme=dark&hide_border=true" alt="GitHub Streak" style="height: 160px; width: auto; margin-right: 10px; />
+  <img src="https://streak-stats.demolab.com?user=Palacios-Pablo&theme=dark&hide_border=true" alt="GitHub Streak"/>
   
 
   <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Palacios-Pablo&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" style="height: 160px; width: auto; margin-right: 10px;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Palacios-Pablo&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats"/>
   <br>
 
 
