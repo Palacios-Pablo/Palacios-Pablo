@@ -362,18 +362,18 @@
 <br>
 
 
-<!-- GitHub Top Repositories -->
+<!-- GitHub Top Repositories 
 <h3 align="center">📚 Repositorios Destacados</h3>
 <div align="center">
   <table>
     <tr>
       <td>
-        <a href="https://github.com/Palacios-Pablo/fast-gemini-nano">
+        <a href="https://github.com/Palacios-Pablo/APROAGUA">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=fast-gemini-nano&theme=dark&hide_border=true&border_radius=15" />
         </a>
       </td>
       <td>
-        <a href="https://github.com/Palacios-Pablo/Weather-3d-ai-app">
+        <a href="https://github.com/Palacios-Pablo/Proyecto-Pagina-Cina">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Weather-3d-ai-app&theme=dark&hide_border=true&border_radius=15" />
         </a>
       </td>
@@ -406,7 +406,7 @@
 </div>
 
 <br>
-
+-->
 <!-- GitHub Profile Summary -->
 <h4 align="center">👤 Resumen del Perfil</h4>
 <div align="center">
