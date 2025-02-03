@@ -246,6 +246,10 @@
 <!--         <img src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" alt="TensorFlow" width="50" height="50"/> -->
         <img src="https://github.com/KenanGain/KenanGain/blob/main/icons/Tensorflow.gif" alt="TensorFlow" width="80" height="70" /><br>TensorFlow
       </td>
+      <td align="center" style="border: none;">
+    <img src="https://cdn.worldvectorlogo.com/logos/java-4.svg" alt="Java" width="50" height="50"/><br>Java
+     </td>
+
       <!--  
       <td align="center" style="border: none;">
         <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" width="50" height="50"/><br>PyTorch
