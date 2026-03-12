@@ -66,30 +66,41 @@ console.log("Welcome to my GitHub profile 🚀")
 ---
 
 ## 🚀 Proyectos Destacados
-
+ 
 <div align="center">
-  <a href="https://github.com/Palacios-Pablo/APROAGUA">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=APROAGUA&theme=dark&hide_border=true&border_radius=15" />
-  </a>
-  <a href="https://github.com/Palacios-Pablo/moviedjangoai">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=moviedjangoai&theme=dark&hide_border=true&border_radius=15" />
-  </a>
-  <a href="https://github.com/Palacios-Pablo/speech-to-text">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=speech-to-text&theme=dark&hide_border=true&border_radius=15" />
-  </a>
-  <a href="https://github.com/Palacios-Pablo/SmolLM">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=SmolLM&theme=dark&hide_border=true&border_radius=15" />
-  </a>
-  <a href="https://github.com/Palacios-Pablo/Llama-3.2_running_locally">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Llama-3.2_running_locally&theme=dark&hide_border=true&border_radius=15" />
-  </a>
-
-  <br><br>
+  <table>
+    <tr>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/APROAGUA">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=APROAGUA&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/Carrito-Plantilla">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Carrito-Plantilla&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Palacios-Pablo/Proyecto-Pagina-Cine">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Proyecto-Pagina-Cine&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/JuanLariasMendez/LAKURA">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanLariasMendez&repo=LAKURA&theme=dark&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+  </table>
+  <br>
   <a href="https://github.com/Palacios-Pablo?tab=repositories">
-    <img src="https://img.shields.io/badge/Ver%20todos%20los%20repositorios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver todos"/>
+    <img src="https://img.shields.io/badge/Ver%20todos%20los%20repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver todos"/>
   </a>
+  </table>
 </div>
-
+ 
 ---
 
 <h1 align="center">
