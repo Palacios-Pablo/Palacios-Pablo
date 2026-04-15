@@ -164,7 +164,7 @@ console.log("Welcome to my GitHub profile 🚀")
   <table style="background-color:#0D1117; color:white; border:none; border-radius:15px; overflow:hidden;">
     <thead>
       <tr>
-        <th colspan="4" align="center" style="color:#569CD6; padding:10px;">🎨 UI/UX & Design Tools</th>
+        <th colspan="4" align="center" style="color:#569CD6; padding:10px;">UI/UX & Design Tools</th>
       </tr>
     </thead>
     <tbody>
@@ -311,7 +311,7 @@ console.log("Welcome to my GitHub profile 🚀")
   <table style="background-color:#0D1117; color:white; border:none; border-radius:15px; overflow:hidden;">
     <thead>
       <tr>
-        <th colspan="4" align="center" style="color:#569CD6; padding:10px;">🤝 Herramientas Colaborativas</th>
+        <th colspan="4" align="center" style="color:#569CD6; padding:10px;">Herramientas Colaborativas</th>
       </tr>
     </thead>
     <tbody>
