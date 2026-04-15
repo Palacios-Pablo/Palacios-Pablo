@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <defs>
+    <style>
+
+            /* Responsive seguro */
+        @media (max-width: 800px) {
+        .ascii-group {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .terminal {
+            transform: translate(80px,15px) scale(1.25);
+        }
+        }
+
+        @media (max-width: 500px) {
+        .ascii-group {
+            display: none;
+        }
+
+        .terminal {
+            transform: translate(40px,15px) scale(1.35);
+        }
+        }
+
+
+      .mono { font-family: Consolas, Menlo, monospace; }
+      .ascii { fill: #8b949e; font-size: 14px; letter-spacing: -0.2px; }
+      .code { font-size: 12px; }
+      .kw { fill: #7ee787; }
+      .id { fill: #79c0ff; }
+      .str { fill: #a5d6ff; }
+      .punct { fill: #d29922; }
+
+
+    <clipPath id="clipLeft">
+      <rect x="0" y="0" width="720" height="700" />
+    </clipPath>
+  
+
+      /* Animaciones */
+      .cursor {
+        animation: blink 1s steps(1) infinite;
+        fill: #7ee787;
+      }
+
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+
+      .fade {
+        opacity: 0;
+        animation: fadeIn 0.6s forwards;
+      }
+
+        .fade:nth-of-type(1) { animation-delay: 0.2s; }
+        .fade:nth-of-type(2) { animation-delay: 0.4s; }
+        .fade:nth-of-type(3) { animation-delay: 0.6s; }
+        .fade:nth-of-type(4) { animation-delay: 0.8s; }
+        .fade:nth-of-type(5) { animation-delay: 1s; }
+
+      @keyframes fadeIn {
+        to { opacity: 1; }
+      }
+
+      .flicker {
+        animation: flicker 3s infinite;
+      }
+
+      @keyframes flicker {
+        0%,100% { opacity: 1; }
+        50% { opacity: 0.97; }
+      }
+    </style>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanlines -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="rgba(255,255,255,0.03)"/>
+    </pattern>
+
+    <clipPath id="clipLeft">
+      <rect x="0" y="0" width="720" height="700" />
+    </clipPath>
+  </defs>
+
+
+  <!-- Fondo -->
+  <rect width="1400" height="700" rx="18" fill="#0d1117"/>
+
+  <!-- Línea divisora 
+  <line x1="720" y1="20" x2="720" y2="500" stroke="#30363d"/>-->
+
+  <!-- ASCII -->
+  <g class="ascii-group" clip-path="url(#clipLeft)" transform="translate(-20,0) scale(.50)">
+    <text class="mono ascii" xml:space="preserve">
+
+<tspan x="0" dy="1.15em"></tspan>
+<tspan x="0" dy="1.15em">                                                   -#######+++-.            -+-....###</tspan>
+<tspan x="0" dy="1.15em">                                            +##+                                      +##-</tspan>
+<tspan x="0" dy="1.15em">                                         ##                                               -####+</tspan>
+<tspan x="0" dy="1.15em">                                      .#.                                                     .###</tspan>
+<tspan x="0" dy="1.15em">                                    .#.                                                         .##</tspan>
+<tspan x="0" dy="1.15em">                                  .#+                                                             +#</tspan>
+<tspan x="0" dy="1.15em">                                  #                                                                .#</tspan>
+<tspan x="0" dy="1.15em">                                ##                                                                  .#</tspan>
+<tspan x="0" dy="1.15em">                              ##                                                                     .#</tspan>
+<tspan x="0" dy="1.15em">                            +#                                                                        -#</tspan>
+<tspan x="0" dy="1.15em">                           .#                                                                          +#</tspan>
+<tspan x="0" dy="1.15em">                           #.                                                                           #-</tspan>
+<tspan x="0" dy="1.15em">                           #-                                                                           -#</tspan>
+<tspan x="0" dy="1.15em">                            #                                                                           +#</tspan>
+<tspan x="0" dy="1.15em">                            #+                                                                          +#</tspan>
+<tspan x="0" dy="1.15em">                            .#                                                                          #.</tspan>
+<tspan x="0" dy="1.15em">                             ++                                                                         #.</tspan>
+<tspan x="0" dy="1.15em">                              #.                                              ..                        #</tspan>
+<tspan x="0" dy="1.15em">                               #                                              -+-.. .                  +#</tspan>
+<tspan x="0" dy="1.15em">                               .#                            ...              .+---..   .              #</tspan>
+<tspan x="0" dy="1.15em">                                 #.                         .+.-              .-++---                 ##</tspan>
+<tspan x="0" dy="1.15em">                                  #                      .  .---...           -#-.---..-  -..        #.</tspan>
+<tspan x="0" dy="1.15em">                                  +#           ......    ..  .+.   .+-.....    .++++++-...-..       ##</tspan>
+<tspan x="0" dy="1.15em">                                  .#     ....    ......  ..--+--+++++##++++++.    ...--+--...      -#</tspan>
+<tspan x="0" dy="1.15em">                                  -#      ..------...--..+++++#######++++#########-...----.-..    -#</tspan>
+<tspan x="0" dy="1.15em">                                  +#         ...+++##++#++##+##+++########################+++-.. .#</tspan>
+<tspan x="0" dy="1.15em">                                  #- ..-++++-.  .-+########++++##++#########################+-...#</tspan>
+<tspan x="0" dy="1.15em">                                  #   .-++++++#++--+###########+++...--+++#+##+#############+-..#</tspan>
+<tspan x="0" dy="1.15em">                                  #     -.   +++++.-+##################+++++++#+++##########+.-###</tspan>
+<tspan x="0" dy="1.15em">                                 .#     +#    ##+.  +############+++++######################+.-####+</tspan>
+<tspan x="0" dy="1.15em">                                 #+ ...++++####-   .+#########+++++++  -###################+++#####+</tspan>
+<tspan x="0" dy="1.15em">                                 #-.-++++++++-     -###########+---##.   .+.+##############++######</tspan>
+<tspan x="0" dy="1.15em">                                 #.-++++++++.     .+#######################++##############++#####</tspan>
+<tspan x="0" dy="1.15em">                                 #.-++###++..    .+###############################################</tspan>
+<tspan x="0" dy="1.15em">                                 #.-++++++..     +##########################################++####</tspan>
+<tspan x="0" dy="1.15em">                                 #-.+++++..     -+###############################################.</tspan>
+<tspan x="0" dy="1.15em">                                 #+.++++-.    .-+################################################</tspan>
+<tspan x="0" dy="1.15em">                                  #.-++++-.  .++################################################</tspan>
+<tspan x="0" dy="1.15em">                                  #..-++###..++################################################</tspan>
+<tspan x="0" dy="1.15em">                                  +#..+++###++##############################################</tspan>
+<tspan x="0" dy="1.15em">                                   #..--+++++-.+#########################################</tspan>
+<tspan x="0" dy="1.15em">                                   -# .------. .+#######################################</tspan>
+<tspan x="0" dy="1.15em">                                    #.......   -#######################################</tspan>
+<tspan x="0" dy="1.15em">                                     #..--.. ..+#+++##################################</tspan>
+<tspan x="0" dy="1.15em">                                     +#.--.-...-+####################################</tspan>
+<tspan x="0" dy="1.15em">                                     +# .....  .-++++###############################</tspan>
+<tspan x="0" dy="1.15em">                                 +##.    .... .-+++++###+#+######################+  ##</tspan>
+<tspan x="0" dy="1.15em">                         .####-          ....---++++#############################     #-</tspan>
+<tspan x="0" dy="1.15em">                    .###                  ..-+++++++++###########################      ##</tspan>
+<tspan x="0" dy="1.15em">           .+####-                         .-+++++++############################+       -#</tspan>
+<tspan x="0" dy="1.15em">         -                                 .--++++#############################+   .      ##</tspan>
+<tspan x="0" dy="1.15em">                                            .-++++############################-   .          ##</tspan>
+<tspan x="0" dy="1.15em">                                             .+++++#########################+  .                ##.</tspan>
+<tspan x="0" dy="1.15em">                                                -++++####################+  .   .                  .##.</tspan>
+<tspan x="0" dy="1.15em">                                                    .+++###########+-.                                 ##</tspan>
+<tspan x="0" dy="1.15em">                                                      -++++-..             ..                            ##</tspan>
+<tspan x="0" dy="1.15em">                                                                        ...                                 +###</tspan>
+<tspan x="0" dy="1.15em">                                                                                                             .. +#</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                  ##.</tspan>
+<tspan x="0" dy="1.15em">                                                                                                               .....+#</tspan>
+<tspan x="0" dy="1.15em">                                                                                                              .      .#</tspan>
+<tspan x="0" dy="1.15em">                                                                                                           .           ##</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                       ..##</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          #</tspan>
+<tspan x="0" dy="1.15em">                                                                                                       .          .....   +</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          -</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          -</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          +</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          -</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          .</tspan>
+<tspan x="0" dy="1.15em">             .                                                                                                            -</tspan>
+<tspan x="0" dy="1.15em">                                                                                                                          -</tspan>
+<tspan x="0" dy="1.15em">               ..                                                                                                         -</tspan>
+<tspan x="0" dy="1.15em">              . ..                                                                                                        .</tspan>
+<tspan x="0" dy="1.15em">              .....                                                                                                       -</tspan>
+
+    </text>
+  </g>
+
+ <!-- Código -->
+<g class="terminal" transform="translate(450,25) scale(1.45)" filter="url(#glow)">
+  <text class="mono code flicker" xml:space="preserve">
+
+    <!-- Header -->
+    <tspan x="0" dy="1.3em" fill="#7ee787">
+      Pablo Palacios @ Personal-PC <tspan class="cursor">█</tspan>
+    </tspan>
+    <tspan x="20" dy="1.3em" fill="#30363d">─────────────────────────────────────────────────────────────────────────────────────────────────────────</tspan>
+
+    <!-- SYSTEM -->
+    <!-- <tspan class="fade" x="0" dy="1.3em" fill="#d29922">SYSTEM</tspan> -->
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">OS</tspan><tspan fill="#8b949e"> .......................... </tspan><tspan fill="#a5d6ff">macOS Sonoma, Linux</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Uptime</tspan><tspan fill="#8b949e"> ...................... </tspan><tspan fill="#a5d6ff">12 hours, 30 minutes</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Kernel</tspan><tspan fill="#8b949e"> ...................... </tspan><tspan fill="#a5d6ff">Darwin (macOS), Linux 6.8</tspan>
+    </tspan>
+
+    <tspan x="0" dy="1.3em"> </tspan>
+
+    <!-- USER -->
+    <!-- <tspan class="fade" x="0" dy="1.3em" fill="#d29922">USER</tspan> -->
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Name</tspan><tspan fill="#8b949e"> ........................ </tspan><tspan fill="#a5d6ff">Pablo Palacios</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Role</tspan><tspan fill="#8b949e"> ........................ </tspan><tspan fill="#a5d6ff">Fullstack Developer</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Location</tspan><tspan fill="#8b949e"> .................... </tspan><tspan fill="#a5d6ff">Guatemala 🇬🇹</tspan>
+    </tspan>
+
+    <tspan x="0" dy="1.3em"> </tspan>
+
+    <!-- STACK -->
+    <!-- <tspan class="fade" x="0" dy="1.3em" fill="#d29922">STACK</tspan> -->
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Frontend</tspan><tspan fill="#8b949e"> .................... </tspan><tspan fill="#a5d6ff">[React, Figma, CSS, Bootstrap]</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Stack</tspan><tspan fill="#8b949e"> ....................... </tspan><tspan fill="#a5d6ff">[Node.js, JavaScript, Python]</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Databases</tspan><tspan fill="#8b949e"> ................... </tspan><tspan fill="#a5d6ff">[MySQL, PostgreSQL, MongoDB]</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Cloud</tspan><tspan fill="#8b949e"> ....................... </tspan><tspan fill="#a5d6ff">[Azure, AWS, GCP]</tspan>
+    </tspan>
+
+    <tspan x="0" dy="1.3em"> </tspan>
+
+    <!-- FOCUS -->
+    <!-- <tspan class="fade" x="0" dy="1.3em" fill="#d29922">FOCUS</tspan> -->
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Focus</tspan><tspan fill="#8b949e"> ....................... </tspan><tspan fill="#a5d6ff">Web Systems • Database Solutions • IT Support</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Current Project</tspan><tspan fill="#8b949e"> ............. </tspan><tspan fill="#a5d6ff">Sistema de gestión para PRODICARNES</tspan>
+    </tspan>
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Learning</tspan><tspan fill="#8b949e"> .................... </tspan><tspan fill="#a5d6ff">[System Architecture, Performance Optimization, Cybersecurity]</tspan>
+    </tspan>
+
+    <tspan x="0" dy="1.3em"> </tspan>
+
+    <!-- EXTRA -->
+    <!-- <tspan class="fade" x="0" dy="1.3em" fill="#d29922">EXTRA</tspan> -->
+    <tspan x="0" dy="1.3em">
+      <tspan fill="#79c0ff">Fun Fact</tspan><tspan fill="#8b949e"> .................... </tspan><tspan fill="#a5d6ff">Automatizo todo lo que pueda automatizarse 🤖</tspan>
+    </tspan>
+
+  </text>
+</g>
+
+</svg>
