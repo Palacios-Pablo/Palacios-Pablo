@@ -26,7 +26,6 @@
 
 <br>
 
-<!-- CONTACT SECTION - moved up for visibility -->
 ## 🌐 Conéctate conmigo
 
 <a href="https://www.linkedin.com/in/pablo-palacios-464a222a9" target="_blank">
@@ -45,7 +44,6 @@
 
 ---
 
-<!-- VSCode Style Code Block -->
 ```ts
 const developer = {
   name:              "Pablo Palacios",
@@ -72,33 +70,32 @@ console.log("Welcome to my GitHub profile 🚀")
     <tr>
       <td>
         <a href="https://github.com/Palacios-Pablo/APROAGUA">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=APROAGUA&theme=dark&hide_border=true&border_radius=15" />
+          <img src="https://opengraph.githubassets.com/1/Palacios-Pablo/APROAGUA" width="400"/>
         </a>
       </td>
       <td>
         <a href="https://github.com/Palacios-Pablo/Carrito-Plantilla">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Carrito-Plantilla&theme=dark&hide_border=true&border_radius=15" />
+          <img src="https://opengraph.githubassets.com/1/Palacios-Pablo/Carrito-Plantilla" width="400"/>
         </a>
       </td>
     </tr>
     <tr>
       <td>
         <a href="https://github.com/Palacios-Pablo/Proyecto-Pagina-Cine">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Palacios-Pablo&repo=Proyecto-Pagina-Cine&theme=dark&hide_border=true&border_radius=15" />
+          <img src="https://opengraph.githubassets.com/1/Palacios-Pablo/Proyecto-Pagina-Cine" width="400"/>
         </a>
       </td>
       <td>
         <a href="https://github.com/JuanLariasMendez/LAKURA">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanLariasMendez&repo=LAKURA&theme=dark&hide_border=true&border_radius=15" />
+          <img src="https://opengraph.githubassets.com/1/JuanLariasMendez/LAKURA" width="400"/>
         </a>
       </td>
     </tr>
   </table>
   <br>
   <a href="https://github.com/Palacios-Pablo?tab=repositories">
-    <img src="https://img.shields.io/badge/Ver%20todos%20los%20repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver todos"/>
+    <img src="https://img.shields.io/badge/Ver%20todos%20los%20repos-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  </table>
 </div>
  
 ---
@@ -154,6 +151,47 @@ console.log("Welcome to my GitHub profile 🚀")
             <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="50" height="50" alt="CSS"/>
           </a>
           <br><sub>CSS</sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<!-- ===== UI/UX & DESIGN TOOLS ===== -->
+<div align="center">
+  <table style="background-color:#0D1117; color:white; border:none; border-radius:15px; overflow:hidden;">
+    <thead>
+      <tr>
+        <th colspan="4" align="center" style="color:#569CD6; padding:10px;">🎨 UI/UX & Design Tools</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://www.figma.com/">
+            <img src="https://skillicons.dev/icons?i=figma" width="50" height="50" alt="Figma"/>
+          </a>
+          <br><sub>Figma</sub>
+        </td>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://helpx.adobe.com/support/xd.html">
+            <img src="https://skillicons.dev/icons?i=xd" width="50" height="50" alt="Adobe XD"/>
+          </a>
+          <br><sub>Adobe XD</sub>
+        </td>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://www.sketch.com/">
+            <img src="https://cdn.worldvectorlogo.com/logos/sketch-2.svg" width="50" height="50" alt="Sketch"/>
+          </a>
+          <br><sub>Sketch</sub>
+        </td>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://miro.com/">
+            <img src="https://cdn.worldvectorlogo.com/logos/miro-2.svg" width="50" height="50" alt="Miro"/>
+          </a>
+          <br><sub>Miro</sub>
         </td>
       </tr>
     </tbody>
@@ -260,6 +298,41 @@ console.log("Welcome to my GitHub profile 🚀")
         <td align="center" style="border:none; padding:10px;">
           <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="50" height="50"/>
           <br><sub>AWS</sub>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<!-- ===== HERRAMIENTAS COLABORATIVAS ===== -->
+<div align="center">
+  <table style="background-color:#0D1117; color:white; border:none; border-radius:15px; overflow:hidden;">
+    <thead>
+      <tr>
+        <th colspan="4" align="center" style="color:#569CD6; padding:10px;">🤝 Herramientas Colaborativas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://github.com/">
+            <img src="https://skillicons.dev/icons?i=github" width="50" height="50" alt="GitHub"/>
+          </a>
+          <br><sub>GitHub</sub>
+        </td>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://trello.com/">
+            <img src="https://cdn.worldvectorlogo.com/logos/trello.svg" width="50" height="50" alt="Trello"/>
+          </a>
+          <br><sub>Trello</sub>
+        </td>
+        <td align="center" style="border:none; padding:10px;">
+          <a href="https://azure.microsoft.com/en-us/products/devops">
+            <img src="https://skillicons.dev/icons?i=azure" width="50" height="50" alt="Azure DevOps"/>
+          </a>
+          <br><sub>Azure DevOps</sub>
         </td>
       </tr>
     </tbody>
@@ -373,31 +446,11 @@ console.log("Welcome to my GitHub profile 🚀")
 <h2 align="center">📊 Estadísticas de GitHub</h2>
 
 <div align="center">
-
-  <!-- GitHub Streak -->
-  <img src="https://streak-stats.demolab.com?user=Palacios-Pablo&theme=dark&hide_border=true&border_radius=15" alt="GitHub Streak"/>
-
-  <br><br>
-
-  <!-- Top Languages + Repos per Language side by side -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Palacios-Pablo&layout=compact&theme=dark&hide_border=true&border_radius=15" alt="Top Languages" height="160"/>
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Palacios-Pablo&theme=dark&hide_border=true" alt="Most Commit Language" height="160"/>
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Palacios-Pablo&theme=dark" height="160"/>
 </div>
 
 <br>
 
-<!-- GitHub Activity Graph -->
-<h4 align="center">📅 Actividad de GitHub</h4>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Palacios-Pablo&custom_title=Pablo%27s%20GitHub%20Activity%20Graph&hide_border=true&border_radius=15&bg_color=0D1117&color=569CD6&line=79FF97&point=79FF97&area_color=000000&title_color=569CD6&area=true" alt="GitHub Activity Graph"/>
-</div>
-
-<br>
-
-<!-- GitHub Profile Summary -->
 <h4 align="center">👤 Resumen del Perfil</h4>
 
 <div align="center">
