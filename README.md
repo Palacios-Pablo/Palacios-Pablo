@@ -63,7 +63,7 @@ console.log("Welcome to my GitHub profile 🚀")
 -->
 
 <a href="https://github.com/SizzeVK">
-  <img src="assets/card.svg" alt="Pablo Palacios Developer Card" width="120%">
+  <img src="assets/card.svg" alt="Pablo Palacios Developer Card" width="90%">
 </a>
 
 ---
