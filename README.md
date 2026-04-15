@@ -43,7 +43,7 @@
 </div>
 
 ---
-
+<!-- 
 ```ts
 const developer = {
   name:              "Pablo Palacios",
@@ -60,6 +60,11 @@ const developer = {
 
 console.log("Welcome to my GitHub profile 🚀")
 ```
+-->
+
+<a href="https://github.com/SizzeVK">
+  <img src="assets/developer-card.svg" alt="Pablo Palacios Developer Card" width="100%">
+</a>
 
 ---
 
