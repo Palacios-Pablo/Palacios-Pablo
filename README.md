@@ -418,7 +418,7 @@ console.log("Welcome to my GitHub profile 🚀")
 
 ---
 
-<h3 align="center">🎨 Video / Photo Editing</h3>
+<!--<h3 align="center">🎨 Video / Photo Editing</h3>
 
 <div align="center">
   <table style="background-color:#0D1117; color:white; border:none; border-radius:15px; overflow:hidden;">
@@ -447,7 +447,7 @@ console.log("Welcome to my GitHub profile 🚀")
 </div>
 
 ---
-
+-->
 <h2 align="center">📊 Estadísticas de GitHub</h2>
 
 <div align="center">
